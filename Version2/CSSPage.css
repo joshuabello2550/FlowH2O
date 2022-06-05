@@ -1,0 +1,82 @@
+﻿/*Attributes that affect the entire webpage*/
+body {
+    margin: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*Atrributes for the logo, menu-bar and the titile*/
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(23, 65, 133);
+    display: flex;
+    align-items: center;
+}
+/*Attributes for the logo at the top of the page*/
+#logo {
+    height: 6.5%;
+    width: 6.5%;
+    padding-left: 7.5%;
+    padding-right: .5%;
+}
+/*Attributes for the title of the compnay next to the logo*/
+#title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 250%;
+    color: white;
+    margin: 0;
+    margin-right: 10%;
+}
+/*Attributes for the menu selection 
+  within the menu-bar at the top of the page*/
+.menu-items {
+    color: white;
+    margin: 0px;
+    margin-right: 5%;
+    font-size: 150%
+}
+/*Attributes for the dimensions and style of the 
+  container which houses all the elements within the page*/
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: Aliceblue;
+    height: 100vh;
+}
+/*Attributes for the header: Daily Tips and Tricks*/
+.container h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 27px;
+    color: #00004d;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+/*Attributes for the unorderd list tag: ListOfTips*/
+.ListOfTips{
+    margin: 0px;
+    padding-right: 5%;
+}
+/*Attributes for the list elements known as tip*/
+.Tip {
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+/*Displays the two headers, 'Percentage of Total Water Used'
+    and 'Total Water Used' next to one another an equal distance apart*/
+.sideByside {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+/*Removes the left padding that was applied from .container h3*/
+.sideByside h3 {
+    padding-left: 0px;
+    padding-top: 15px
+}
+/*Increases the middle distance between 
+    'Percentage of Total Water Used' and 'Total Water Used'*/
+#PercentageOfTotal {
+    margin-right: 20%;
+}

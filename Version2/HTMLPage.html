@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>FlowH2O Data</title>
+    <!--Link the CSS to the HTML-->
+    <link href="CSSPage.css" rel="stylesheet" style="text/css" />
+    <!--Link the JavaScript to the HTML-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Link the JQuery to the HTML-->
+    <script src="JSPage.js"></script>
+</head>
+<body>
+    <!--Creates a blue header that includes the logo, the title and the menu-bar-->
+    <div class="header">
+        <!--Dsiplays the logo next to the title-->
+        <img src="FlowH2OLogo.png" id="logo" />
+        <!--Displays the title next to the logo-->
+        <h1 id="title"> Flow H2O</h1>
+        <h5 class="menu-items">Home</h5>
+        <h5 class="menu-items">Products</h5>
+        <h5 class="menu-items">Data</h5>
+        <h5 class="menu-items">Contact</h5>
+
+    </div>
+    <!--Creates the body of the website-->
+    <div class="container">
+        <!--Creates a random list genrator of Daily Tips and Tricks-->
+        <h3 class="body-text">Daily Tips and Tricks</h3>
+        <ul class="ListOfTips">
+            <li class='Tip' id="Tip1"></li>
+            <li class='Tip' id="Tip2"></li>
+            <li class='Tip' id="Tip3"></li>
+        </ul>
+        <!--Two elements below the daily tips that are side by Side-->
+        <div class="sideByside">
+            <div id="PercentageOfTotal">
+                <!--Creates a circle graph that diplays how much water you have
+            used compared to the total amount of water you input for today-->
+                <h3>Percentage of Total Water Used</h3>
+            </div>
+            <div>
+                <!--Creates an animation that diplays the total water for the day-->
+                <h3 class="" id="totalWaterUsed">Total Water Used</h3>
+            </div>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
