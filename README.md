@@ -1,4 +1,4 @@
-# FLOW-H2O
+# *FLOW-H2O*
 
 Project by: Joshua Bello, Jefferson Yu, Sannidhya Desia, Brian Xu, Ankit Patel
 
